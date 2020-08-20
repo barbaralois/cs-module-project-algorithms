@@ -6,6 +6,7 @@ def moving_zeroes(arr):
     counter = 0
     for num in arr:
         if arr[num] == 0:
+            print(arr[num])
             counter += 1
             arr.pop(num)
     while counter > 0:
